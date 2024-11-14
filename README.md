@@ -52,6 +52,7 @@ SELECT * FROM table_name ORDER BY column ASC;
 Intermediate-level queries focus on data manipulation and relational operations:
 
 *Joins*
+
 Combining data from multiple tables with INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
 
 SELECT t1.column, t2.column 
