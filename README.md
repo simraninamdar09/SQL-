@@ -1,20 +1,22 @@
-** Introduction **
+**Introduction**
+
 SQL (Structured Query Language) is a powerful tool for managing and querying data in relational databases. This guide provides a structured approach to learning SQL, progressing from basic commands to advanced techniques. Each section is accompanied by explanations and examples to help you apply these concepts in real-world scenarios.
 
-**Getting Started
+**Getting Started**
+
 Install SQL Database
 Install a relational database like MySQL, PostgreSQL, or SQLite to practice the queries in this guide.
 
-Setting Up
+**Setting Up**
 You can use a GUI tool like MySQL Workbench, DBeaver, or pgAdmin to interact with the database.
 
-Running SQL Queries
+**Running SQL Queries**
 Open your SQL client, connect to the database, and start with the beginner queries.
 
-Beginner Concepts
+**Beginner Concepts**
 At this level, we cover the fundamental SQL commands and concepts:
-
-SELECT Statements
+<font color="green"> 
+SELECT Statements</font>
 Basic commands to retrieve data from a database.
 
 SELECT * FROM table_name;
