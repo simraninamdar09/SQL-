@@ -24,6 +24,7 @@ At this level, we cover the fundamental SQL commands and concepts:
 Basic commands to retrieve data from a database.
 
 SELECT * FROM table_name;
+
 SELECT column1, column2 FROM table_name;
 
 *Filtering Data*
@@ -73,7 +74,9 @@ Writing queries within queries to achieve complex results.
 SELECT column 
 FROM table_name 
 WHERE column IN (SELECT column FROM another_table);
-Window Functions
+
+*Window Functions*
+
 Using functions like ROW_NUMBER(), RANK(), and OVER() for advanced aggregations.
 
 SELECT column, ROW_NUMBER() OVER(PARTITION BY column ORDER BY another_column) 
